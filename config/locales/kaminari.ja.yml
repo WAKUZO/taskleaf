@@ -1,0 +1,17 @@
+ja:
+  views:
+    pagination:
+      first: "&laquo; 最初"
+      last: "最後 &raquo;"
+      previous: "&lsaquo; 前"
+      next: "次 &rsaquo;"
+      truncate: "&hellip;"
+  helpers:
+    page_entries_info:
+      one_page:
+        display_entries:
+          zero: "(entry_name}"
+          one: "1件の{entry_name}が表示されています "
+          other: "%{count) 0%{entry_name} "
+      more_pages:
+        display_entries: "%{total} # %{first) &nbsp;-&nbsp;% (last) 40 % (entry_name} TVET"
